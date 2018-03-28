@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@drawable/image_2">
+
+	<TextView
+		android:text="Wanna Get out??"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="30dp"
+		android:textSize="30sp"
+		android:layout_margin="0dp"
+		android:textColor="#FFFFFF"/>
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Yes"
+			android:paddingLeft="10dp"
+			android:layout_margin="0dp"
+			android:layout_gravity="left"
+			android:padding="20dp"
+			android:onClick="onYes"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Noo"
+			android:layout_margin="0dp"
+			android:padding="20dp"
+			android:onClick="onNo"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Kill Me"
+			android:layout_margin="0dp"
+			android:layout_marginBottom="10dp"
+			android:padding="20dp"
+			android:layout_marginLeft="10dp"
+			android:onClick="exe"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="curious??  ;-)"
+		android:textColor="#FFFFFF"
+		android:id="@+id/mt1">
+
+	</TextView>
+
+</LinearLayout>
