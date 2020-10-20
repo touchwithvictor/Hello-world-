@@ -34,3 +34,16 @@ public class MainActivity extends Activity
 		
 	}
 }
+
+----------------------------------------------------------------------------
+/*
+public void onNo(View view){
+		TranslateAnimation var=new TranslateAnimation(0,0,0,10000);
+		var.setDuration(10000);
+		view.startAnimation(var);
+		TextView ta=(TextView) findViewById(R.id.mt1);
+		ta.setText("you are dead inside ,just like me");
+		Toast.makeText(this,"No needs to get out,we have technology",Toast.LENGTH_LONG).show();
+		
+	}
+*/
